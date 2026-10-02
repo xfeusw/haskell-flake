@@ -9,8 +9,8 @@
         # Haskell flake
 
         Init:
-          cabal init
           nix develop
+          cabal init
       '';
     };
   };
