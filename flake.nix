@@ -6,14 +6,10 @@
       path = ./template;
       description = "Haskell flake with Haskell.nix";
       welcomeText = ''
-        # Haskell project
+        # Haskell flake
 
-        Initialize the Cabal package:
-
+        Init:
           cabal init
-
-        Then enter the development shell:
-
           nix develop
       '';
     };
